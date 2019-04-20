@@ -9,7 +9,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - cd lambda && make build
+      - cd lambda
+      - make build
   # post_build:
   #   commands:
   #     - echo Build completed on `date`
